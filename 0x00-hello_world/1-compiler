@@ -1,2 +1,2 @@
 #!/bin/bash
-gss -E $CFILE -c o 
+gss -E $CFILE -c main.o 
