@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
  * main -Entry point
  * Description: prints a string to tha standard error
