@@ -1,2 +1,2 @@
 #!/bin/bash
-gss -E $CFILE -o CFILE.o
+gss -E main.o
