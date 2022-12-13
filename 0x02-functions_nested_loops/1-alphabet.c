@@ -7,7 +7,6 @@
  */
 int main(void)
 {
-	print_alphabet n;
 	int n;
 
 	for (n = 'a'; n <= 'z'; n++)
