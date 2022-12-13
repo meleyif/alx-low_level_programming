@@ -7,9 +7,10 @@
  */
 int _islower(int c)
 {
-	int c;
+	char ch;
 
-	if (c >= 97 && c <= 122)
+	scanf("%c", &ch);
+	if (ch >= 'a' && ch <= 'z')
 	{
 		return (1);
 	}
