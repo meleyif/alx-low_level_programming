@@ -9,7 +9,7 @@ int _islower(int c)
 {
 	char ch;
 
-	if (ch >= 'a' && ch <= 'z')
+	if (ch <= 'z' && ch >= 'a', a++)
 	{
 		return (1);
 	}
