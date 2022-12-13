@@ -9,7 +9,6 @@ int _islower(int c)
 {
 	char ch;
 
-	scanf("%c", &ch);
 	if (ch >= 'a' && ch <= 'z')
 	{
 		return (1);
