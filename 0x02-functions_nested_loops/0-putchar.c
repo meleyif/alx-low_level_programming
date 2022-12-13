@@ -1,18 +1,18 @@
-#include <main.h>
-#include <unistd.h>
+#include "main.h"
 /**
- * _putchar - used to write char
- * @c: The character to be print
- * Return: 1 in success & error on -1.
+ * main - Entry point _putchar
+ * description: print out
+ * Return: 1 (success)
  */
-int _putchar(char c)
+int main(void)
 {
-	_putchar(p);
-	_putchar(u);
-	_putchar(t);
-	_putchar(c);
-	_putchar(h);
-	_putchar(a);
-	_putchar(r);
-	return (write(1, &c, 1));
+	char *sh = "_putchar";
+
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
+	_putchar('\n');
+	return (0);
 }
