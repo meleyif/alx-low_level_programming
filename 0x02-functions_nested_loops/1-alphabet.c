@@ -5,9 +5,9 @@
  * description: print_alphabet
  * Return: 0 (Success)
  */
-int print_alphabet(void)
+void print_alphabet(void)
 {
-	int n;
+	char n;
 
 	for (n = 'a'; n <= 'z'; n++)
 	{
