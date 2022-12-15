@@ -1,1 +1,1 @@
-This is a c edbugging project file.
+This is a c debugging project file.
