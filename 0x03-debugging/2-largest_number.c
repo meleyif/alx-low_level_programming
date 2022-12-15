@@ -11,18 +11,24 @@
 int largest_number(int a, int b, int c)
 {
     int largest;
+	printf("Enter three numbers: \n a: ")
+		scanf("%d", &a);
+        printf("b: ")
+                scanf("%d", &b);
+        printf("c: ")
+                scanf("%d", &c);
 
-    if (a >= b && b >= c)
+    if (a > b && b > c)
     {
-        largest = a;
+        printf("Largest is %d", a);
     }
-    else if (b >= a && a >= c)
+    else if (b > a && a > c)
     {
-        largest = b;
+        printf("Largest is %d", b);
     }
-    else
+    else if (c > a && c > b);
     {
-        largest = c;
+        printf("Largest is %d", c);
     }
 
     return (largest);
