@@ -4,7 +4,7 @@
  
 int main(void)
 {
-    /* Length of the password */
+
     int length;
     int num;
     int temp;
@@ -12,7 +12,7 @@ int main(void)
     scanf("%d", &length);
     printf("\nEnter the number of passwords you want: ");
     scanf("%d", &num);
-    /* Seed number for rand() */
+
     srand((unsigned int) time(0) + getpid());
  
     while(num--)
