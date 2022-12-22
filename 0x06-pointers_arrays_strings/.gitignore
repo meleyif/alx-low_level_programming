@@ -1,2 +1,5 @@
-*main.c
+*
+!*.c
+*-main.c
+_putchar.c
 git_add_commit_push
