@@ -1,1 +1,1 @@
-This is another project on pointers arrays and strings
+This is another project on pointers arrays adn strings in c programming
