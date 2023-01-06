@@ -10,13 +10,18 @@
   */
 int main(int argc, char *argv[])
 {
-	int i, mul;
+	int n1 = 0, n2 = 0;
 
-	for (i = 0; i < argc; i++)
+	if (argc == 3)
 	{
-		printf("%s\n", argv[i]);
-		mul = mul * atoi(argv[i]);
+		n1 = atoi(argv[1]);
+		n2 = atoi(argv[2]);
+		printf("%d\", n1 * n2);
 	}
-
+	else
+	{
+		printf("Error\n");
+		return (1);
+	}
 	return (0);
 }
