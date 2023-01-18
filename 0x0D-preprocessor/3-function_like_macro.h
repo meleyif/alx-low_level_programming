@@ -1,4 +1,4 @@
 #ifndef ABS(x)
-#define ABS(x) abs(int x)
+#define ABS(x) abs(x)
 
 #endif
