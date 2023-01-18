@@ -3,10 +3,10 @@
 #include <string.h>
 
 /**
-  * get_op_func - ...
-  * @s: ...
+  * get_op_func - Get operator function
+  * @s: Operator passed as argument
   *
-  * Return: ...
+  * Return: Always zero.
   */
 int (*get_op_func(char *s))(int, int)
 {

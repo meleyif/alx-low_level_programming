@@ -4,72 +4,72 @@
 
 /**
   * op_add - Addition operator
-  * @num1: First integer
-  * @num2: Second integer
+  * @a: The first number
+  * @b: The second number
   *
-  * Return: THe addition result
+  * Return: Addition result
   */
-int op_add(int num1, int num2)
+int op_add(int a, int b)
 {
-	return (num1 + num2);
+	return (a + b);
 }
 
 /**
   * op_sub - Subtraction operator
-  * @num1: First integer
-  * @num2: Second integer
+  * @a: The first number
+  * @b: The second Number
   *
-  * Return: Subtraction result
+  * Return: Subtracted result
   */
-int op_sub(int num1, int num2)
+int op_sub(int a, int b)
 {
-	return (num1 - num2);
+	return (a - b);
 }
 
 /**
-  * op_mul - Multiplication operator
-  * @num1: First integer
-  * @num2: Second integer
+  * op_mul - Multipication operator
+  * @a: The first number
+  * @b: The second number
   *
   * Return: Multiplied result
   */
-int op_mul(int num1, int num2)
+int op_mul(int a, int b)
 {
-	return (num1 * num2);
+	return (a * b);
 }
 
 /**
   * op_div - Division operator
-  * @num1: First integer
-  * @num2: Second integer
+  * @a: The first number
+  * @b: The second number
   *
-  * Return: The divided result
+  * Return: The division result
   */
-int op_div(int num1, int num2)
+int op_div(int a, int b)
 {
-	if (num2 == 0)
+	if (b == 0)
 	{
 		printf("Error\n");
 		exit(100);
 	}
 
-	return (num1 / num2);
+	return (a / b);
 }
 
 /**
-  * op_mod - Modulous operator
-  * @num1: Firest integer
-  * @num2: Second integer
+  * op_mod - Modulus operator
+  * @a: The first number
+  * @b: The second number.
   *
-  * Return: The reminder
+  * Return: The modulus result.
   */
-int op_mod(int num1, int num2)
+int op_mod(int a, int b)
 {
-	if (num2 == 0)
+	if (b == 0)
 	{
 		printf("Error\n");
 		exit(100);
 	}
 
-	return (num1 % num2);
+	return (a % b);
 }
