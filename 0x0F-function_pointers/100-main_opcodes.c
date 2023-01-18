@@ -3,11 +3,11 @@
 #include <udis86.h>
 
 /**
-  * main - Main function
-  * @argc: Arcgument count
-  * @argv: Argument vector
+  * main - ...
+  * @argc: ...
+  * @argv: ...
   *
-  * Return: Always zero.
+  * Return: ...
   */
 int main(int argc, char *argv[])
 {
