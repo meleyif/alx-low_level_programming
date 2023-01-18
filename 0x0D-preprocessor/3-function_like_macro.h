@@ -1,4 +1,4 @@
 #ifndef ABS(x)
-#define ABS(x) abs(x)
+#define ABS(x) (if x < 0, x = x *(-1))
 
 #endif
