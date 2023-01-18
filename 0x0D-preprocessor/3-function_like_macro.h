@@ -1,4 +1,5 @@
+#include <stdlib.h>
 #ifndef ABS(x)
-#define ABS(x) ((N<0)?(-N):(N))
+#define ABS(x) abs(x)
 
 #endif
